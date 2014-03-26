@@ -22,6 +22,7 @@
 		8B579FCB18E335C200F20DBC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B579FAF18E335C100F20DBC /* CoreData.framework */; };
 		8B579FD318E335C200F20DBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B579FD118E335C200F20DBC /* InfoPlist.strings */; };
 		8B579FD518E335C200F20DBC /* NewcommTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B579FD418E335C200F20DBC /* NewcommTests.m */; };
+		8B579FDF18E3384800F20DBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B579FDE18E3384800F20DBC /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8B579FD018E335C200F20DBC /* NewcommTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewcommTests-Info.plist"; sourceTree = "<group>"; };
 		8B579FD218E335C200F20DBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B579FD418E335C200F20DBC /* NewcommTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewcommTests.m; sourceTree = "<group>"; };
+		8B579FDE18E3384800F20DBC /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				8B579FC018E335C200F20DBC /* Images.xcassets */,
 				8B579FBD18E335C100F20DBC /* Newcomm.xcdatamodeld */,
 				8B579FB218E335C100F20DBC /* Supporting Files */,
+				8B579FDE18E3384800F20DBC /* MainStoryboard.storyboard */,
 			);
 			path = Newcomm;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B579FDF18E3384800F20DBC /* MainStoryboard.storyboard in Resources */,
 				8B579FB618E335C100F20DBC /* InfoPlist.strings in Resources */,
 				8B579FC118E335C200F20DBC /* Images.xcassets in Resources */,
 			);
@@ -447,6 +451,7 @@
 				8B579FDA18E335C200F20DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B579FDB18E335C200F20DBC /* Build configuration list for PBXNativeTarget "NewcommTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				8B579FDD18E335C200F20DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
